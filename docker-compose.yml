@@ -1,0 +1,9 @@
+version: "3"
+services:
+  squid:
+    build: .
+    hostname: squid
+    privileged: true
+    ports:
+      - "8080:3128"
+    tty: true
