@@ -5,5 +5,5 @@ services:
     hostname: squid
     privileged: true
     ports:
-      - "8080:3128"
+      - "8080:8080"
     tty: true
